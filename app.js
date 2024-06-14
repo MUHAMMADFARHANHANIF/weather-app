@@ -33,7 +33,7 @@ form.addEventListener('submit',(event)=>{
             arr.map((item)=>{
 
                 card.innerHTML += `
-                <div class='bg-white border border-gray-800 shadow-lg ring ring-gray-700 ring-opacity-50 w-50 mx-auto mt-5 rounded-lg p-4 mb-5'>
+                <div class='bg-white border border-gray-800 shadow-lg ring ring-gray-700 ring-opacity-50 w-75 mx-auto mt-5 rounded-lg p-4 mb-5'>
                     <h1 class='text-2xl'>${item.location.name}</h1>
                     <p class='text-gray-500'>${item.location.localtime}, ${item.location.country}</p>
                     <div class='mt-5 d-flex justify-content-between align-items-center mx-5 pb-4'>
