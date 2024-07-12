@@ -23,7 +23,7 @@ form.addEventListener('submit',(event)=>{
     event.preventDefault()
     card.innerHTML=""
     
-    axios(`http://api.weatherapi.com/v1/current.json?key=6326e206cf9041e5b3853528241406&q=${city.value}&aqi=no`)
+    axios(`https://api.weatherapi.com/v1/current.json?key=6326e206cf9041e5b3853528241406&q=${city.value}&aqi=no`)
     .then((res)=>{
 
         if (arr.find(element => element.location.name.toLowerCase() === city.value.toLowerCase())) {
